@@ -40,7 +40,7 @@ jobs:
 
           target_url: 'https://brokencrystals.com/'
 
-          api_url: 'https://qa-api.soos.io/api/'
+          api_url: 'https://api.soos.io/api/'
 
       - name: SOOS SCA Scan
 
