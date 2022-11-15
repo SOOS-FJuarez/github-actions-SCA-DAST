@@ -28,7 +28,7 @@ jobs:
 
       # You may pin to the exact commit or the version.
 
-        uses: soos-io/soos-dast-github-action@fix/PA-7041
+        uses: soos-io/soos-dast-github-action@beta
 
         with:
 
