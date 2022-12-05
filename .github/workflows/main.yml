@@ -58,4 +58,4 @@ jobs:
           
           verbosity: "INFO"
           
-          verbose: "false"
+          verbose: "true"
