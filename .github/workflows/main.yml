@@ -55,3 +55,7 @@ jobs:
           api_key: ${{ secrets.SOOS_API_KEY }}
 
           api_url: 'https://qa-api.soos.io/api/'
+          
+          verbosity: "DEBUG"
+          
+          verbose: "true"
