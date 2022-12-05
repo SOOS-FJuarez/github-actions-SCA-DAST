@@ -44,7 +44,7 @@ jobs:
 
       - name: SOOS SCA Scan
 
-        uses: soos-io/soos-sca-github-action@v1.2.0
+        uses: soos-io/soos-sca-github-action@feature/PA-7081
 
         with:
 
