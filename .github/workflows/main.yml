@@ -56,6 +56,3 @@ jobs:
 
           api_url: 'https://api.soos.io/api/'
           
-          verbosity: "DEBUG"
-          
-          verbose: "true"
