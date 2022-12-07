@@ -1,0 +1,21 @@
+{
+  "name": "aut_pd_manB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/artifact": "^0.2.0",
+    "@actions/core": "^1.2.3",
+    "@actions/github": "^2.1.1",
+    "gatsby-plugin-sharp": "^2.6.4",
+    "sharp": "^0.25.1",
+    "jsonify": "0.0.0",
+    "hoek": "6.1.3"
+  }
+}
