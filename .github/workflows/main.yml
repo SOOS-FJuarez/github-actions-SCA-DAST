@@ -28,7 +28,7 @@ jobs:
 
       # You may pin to the exact commit or the version.
 
-        uses: soos-io/soos-dast-github-action@v1.2.3
+        uses: soos-io/soos-dast-github-action@v1.2.5
 
         with:
 
@@ -44,7 +44,7 @@ jobs:
 
       - name: SOOS SCA Scan
 
-        uses: soos-io/soos-sca-github-action@feature/PA-7081
+        uses: soos-io/soos-sca-github-action@V1.2.2
 
         with:
 
