@@ -36,7 +36,7 @@ jobs:
 
           api_key: ${{ secrets.SOOS_API_KEY }}
 
-          project_name: 'DAST TEST GH'
+          project_name: 'DAST TEST GH PROD'
 
           target_url: 'https://brokencrystals.com/'
 
@@ -48,7 +48,7 @@ jobs:
 
         with:
 
-          project_name: 'SCA TEST GH'
+          project_name: 'SCA TEST GH PROD'
 
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
 
