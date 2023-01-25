@@ -38,7 +38,7 @@ jobs:
 
           project_name: 'DAST QA- wait for password'
           
-          auth_form_type: wait_for_password
+          auth_form_type: 'wait_for_password'
 
           target_url: 'https://joaquinalvarez.dev/'
 
