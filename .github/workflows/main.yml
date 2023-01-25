@@ -36,25 +36,27 @@ jobs:
 
           api_key: ${{ secrets.SOOS_API_KEY }}
 
-          project_name: 'GH DAST QA - wait for password'
+          project_name: 'GH DAST QA - multi page'
           
-          auth_form_type: 'wait_for_password'
+          auth_form_type: 'multi_page'
 
-          target_url: 'https://joaquinalvarez.dev/'
+          target_url: 'https://login.yahoo.com/'
 
           api_url: 'https://qa-api.soos.io/api/'
           
-          auth_login_url: 'https://joaquinalvarez.dev/'
+          auth_login_url: 'https://login.yahoo.com/'
                   
-          auth_username: 'franco'
+          auth_username: 'franco.juarez08@yahoo.com'
         
-          auth_password: 'waitforpassword'
+          auth_password: 'Micring00'
         
-          auth_username_field: 'username'
+          auth_username_field: 'login-username'
         
-          auth_password_field: 'password'
+          auth_password_field: 'login-passwd'
           
-          auth_submit_field: 'button'
+          auth_submit_field: 'login-signin'
+          
+          auth_second_submit_field: 'login-signin'
 
       - name: SOOS SCA Scan
 
