@@ -38,7 +38,7 @@ jobs:
 
           project_name: 'GH DAST QA'
           
-          target_url: 'https://brokencrystals.com/'
+          target_url: 'https://francojuarezfilms.com/'
 
           api_url: 'https://qa-api.soos.io/api/'
           
