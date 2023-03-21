@@ -38,7 +38,11 @@ jobs:
 
           project_name: 'GH DAST QA'
           
+          scan_mode: 'baseline'
+          
           api_url: 'https://qa-api.soos.io/api/'
+          
+          target_url: 'http://demo.testfire.net/'
           
       - name: SOOS SCA Scan
 
