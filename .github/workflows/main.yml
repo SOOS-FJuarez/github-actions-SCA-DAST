@@ -56,4 +56,4 @@ jobs:
 
           api_key: ${{ secrets.SOOS_API_KEY }}
 
-          api_url: 'https://api.soos.io/api/'
+          api_url: 'https://qa-api.soos.io/api/'
