@@ -36,28 +36,10 @@ jobs:
 
           api_key: ${{ secrets.SOOS_API_KEY }}
 
-          project_name: 'GH DAST QA - multi page'
+          project_name: 'GH DAST QA'
           
-          auth_form_type: 'multi_page'
-
-          target_url: 'https://login.yahoo.com/'
-
           api_url: 'https://api.soos.io/api/'
           
-          auth_login_url: 'https://login.yahoo.com/'
-                  
-          auth_username: 'franco.juarez08@yahoo.com'
-        
-          auth_password: 'Micring00'
-        
-          auth_username_field: 'login-username'
-        
-          auth_password_field: 'login-passwd'
-          
-          auth_submit_field: 'login-signin'
-          
-          auth_second_submit_field: 'login-signin'
-
       - name: SOOS SCA Scan
 
         uses: soos-io/soos-sca-github-action@v1.2.2
