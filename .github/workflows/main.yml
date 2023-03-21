@@ -38,7 +38,7 @@ jobs:
 
           project_name: 'GH DAST QA'
           
-          api_url: 'https://api.soos.io/api/'
+          api_url: 'https://qa-api.soos.io/api/'
           
       - name: SOOS SCA Scan
 
