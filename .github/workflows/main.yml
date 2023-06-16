@@ -36,7 +36,7 @@ jobs:
 
           api_key: ${{ secrets.SOOS_API_KEY }}
 
-          project_name: 'GH DAST QA'
+          project_name: 'GH DAST + SCA'
           
           scan_mode: 'baseline'
           
@@ -50,7 +50,7 @@ jobs:
 
         with:
 
-          project_name: 'SCA QA'
+          project_name: 'GH DAST + SCA'
 
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
 
