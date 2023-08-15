@@ -40,13 +40,13 @@ jobs:
           
           scan_mode: 'baseline'
           
-          api_url: 'https://api.soos.io/api/'
+          api_url: 'https://qa-api.soos.io/api/'
           
           target_url: 'https://docs.cypress.io/'
           
       - name: SOOS SCA Scan
 
-        uses: soos-io/soos-sca-github-action@v1.2.2
+        uses: soos-io/soos-sca-github-action@feature/PA-10432
 
         with:
 
@@ -56,4 +56,4 @@ jobs:
 
           api_key: ${{ secrets.SOOS_API_KEY }}
 
-          api_url: 'https://api.soos.io/api/'
+          api_url: 'https://qa-api.soos.io/api/'
