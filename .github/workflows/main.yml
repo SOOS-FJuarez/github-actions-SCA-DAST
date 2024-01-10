@@ -28,7 +28,7 @@ jobs:
 
       # You may pin to the exact commit or the version.
 
-        uses: soos-io/soos-dast-github-action@v2.0.0
+        uses: soos-io/soos-dast-github-action@v2.0.5
 
         with:
 
@@ -40,7 +40,7 @@ jobs:
           
           scan_mode: 'baseline'
           
-          api_url: 'https://api.soos.io/api/'
+          api_url: 'https://qa-api.soos.io/api/'
           
           target_url: 'https://brokencrystals.com/'
           
@@ -56,4 +56,4 @@ jobs:
 
           api_key: ${{ secrets.SOOS_API_KEY }}
 
-          api_url: 'https://api.soos.io/api/'
+          api_url: 'https://qa-api.soos.io/api/'
