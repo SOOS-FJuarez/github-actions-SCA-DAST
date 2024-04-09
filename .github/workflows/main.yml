@@ -28,7 +28,7 @@ jobs:
 
       # You may pin to the exact commit or the version.
 
-        uses: soos-io/soos-dast-github-action@v2.0.5
+        uses: soos-io/soos-dast-github-action@v2.0.6
 
         with:
 
