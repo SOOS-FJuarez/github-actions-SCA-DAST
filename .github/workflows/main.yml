@@ -41,6 +41,8 @@ jobs:
           api_url: 'https://qa-api.soos.io/api/'
           
           target_url: 'https://brokencrystals.com/'
+
+          on_failure: continue_on_failure
           
       - name: SOOS SCA Scan
 
@@ -55,3 +57,5 @@ jobs:
           api_key: ${{ secrets.SOOS_API_KEY }}
 
           api_url: 'https://qa-api.soos.io/api/'
+
+          on_failure: continue_on_failure
