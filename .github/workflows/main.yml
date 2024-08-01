@@ -43,6 +43,8 @@ jobs:
           target_url: 'https://brokencrystals.com/'
 
           on_failure: continue_on_failure
+
+          verbose: true
           
       - name: SOOS SCA Scan
 
