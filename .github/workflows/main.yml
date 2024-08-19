@@ -61,3 +61,5 @@ jobs:
           api_url: 'https://qa-api.soos.io/api/'
 
           on_failure: continue_on_failure
+
+          verbose: true
