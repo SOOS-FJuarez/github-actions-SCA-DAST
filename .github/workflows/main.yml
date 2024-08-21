@@ -38,7 +38,7 @@ jobs:
           
           scan_mode: 'baseline'
           
-          api_url: 'https://qa-api.soos.io/api/'
+          api_url: 'https://api.soos.io/api/'
           
           target_url: 'https://brokencrystals.com/'
 
@@ -58,7 +58,7 @@ jobs:
 
           api_key: ${{ secrets.SOOS_API_KEY }}
 
-          api_url: 'https://qa-api.soos.io/api/'
+          api_url: 'https://api.soos.io/api/'
 
           on_failure: continue_on_failure
 
