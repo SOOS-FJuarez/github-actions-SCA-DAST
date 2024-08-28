@@ -40,7 +40,7 @@ jobs:
           
           api_url: 'https://qa-api.soos.io/api/'
           
-          target_url: 'https://brokencrystals.com/'
+          target_url: 'https://joaquinalvarez.dev/'
 
           on_failure: continue_on_failure
 
