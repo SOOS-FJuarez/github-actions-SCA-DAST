@@ -44,7 +44,7 @@ jobs:
 
           on_failure: continue_on_failure
 
-          verbose: true
+       
           
       - name: SOOS SCA Scan
 
@@ -62,4 +62,4 @@ jobs:
 
           on_failure: continue_on_failure
 
-          verbose: true
+         
