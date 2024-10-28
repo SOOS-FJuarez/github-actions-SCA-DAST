@@ -35,7 +35,7 @@ jobs:
           api_key: ${{ secrets.SOOS_API_KEY }}
 
           project_name: 'GH DAST + SCA'
-          
+           
           scan_mode: 'baseline'
           
           api_url: 'https://qa-api.soos.io/api/'
