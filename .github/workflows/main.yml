@@ -52,7 +52,7 @@ jobs:
 
         with:
 
-          project_name: 'GH DAST + SCA'
+          project_name: 'GH DAST + SCA' 
 
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
 
